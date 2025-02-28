@@ -1,13 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Map SVG
-    </title>
+    <title>Интерактивная SVG</title>
+    <style>
+        #tooltip {
+            position: absolute;
+            display: none;
+            background: white;
+            border: 1px solid black;
+            padding: 5px;
+            font-size: 14px;
+        }
+
+        svg path:hover {
+            fill: orange !important;
+            cursor: pointer;
+        }
+    </style>
 </head>
+
 <body>
-    
-    
+
+    <svg width="2000" height="1000" viewBox="0 0 1000 600">
+        <path id="almaty" d="M100,100 L200,100 L200,200 L100,200 Z" fill="blue" data-name="Атырау"
+            data-population="1.9 млн"></path>
+
+        <path id="astana" d="M300,150 L400,150 L400,250 L300,250 Z" fill="green" data-name="Астана"
+            data-population="1.2 млн"></path>
+    </svg>
+
+    <div id="tooltip"></div>
+
+    <script>
+        const tooltip = document.getElementById('tooltip');
+
+        document.querySelectorAll('svg path').forEach(element => {
+            element.addEventListener('mouseover', (event) => {
+                const regionName = event.target.getAttribute('data-name') || 'Неизвестный регион';
+                const population = event.target.getAttribute('data-population') || 'Нет данных';
+
+                tooltip.innerHTML = `Город: ${regionName} <br> Население: ${population}`;
+                tooltip.style.display = 'block';
+                tooltip.style.left = event.pageX + 10 + 'px';
+                tooltip.style.top = event.pageY + 10 + 'px';
+            });
+
+            element.addEventListener('mouseout', () => {
+                tooltip.style.display = 'none';
+            });
+        });
+    </script>
+
 </body>
+
 </html>
