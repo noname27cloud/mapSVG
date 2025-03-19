@@ -1,0 +1,188 @@
+{
+    "cities": [
+      {
+        "id": 1,
+        "name": "Астана",
+        "population": 1200000,
+        "area_km2": 797,
+        "universities": 20,
+        "schools": 150,
+        "colleges": 30,
+        "description": "Столица Казахстана с современными архитектурными решениями."
+      },
+      {
+        "id": 2,
+        "name": "Алматы",
+        "population": 2000000,
+        "area_km2": 682,
+        "universities": 38,
+        "schools": 250,
+        "colleges": 60,
+        "description": "Крупнейший город Казахстана, культурный и образовательный центр."
+      },
+      {
+        "id": 3,
+        "name": "Шымкент",
+        "population": 1100000,
+        "area_km2": 1170,
+        "universities": 12,
+        "schools": 200,
+        "colleges": 40,
+        "description": "Один из крупнейших городов Казахстана с развитой промышленностью."
+      },
+      {
+        "id": 4,
+        "name": "Актобе",
+        "population": 450000,
+        "area_km2": 400,
+        "universities": 8,
+        "schools": 100,
+        "colleges": 20,
+        "description": "Крупный промышленный и культурный центр на западе Казахстана."
+      },
+      {
+        "id": 5,
+        "name": "Атырау",
+        "population": 300000,
+        "area_km2": 118,
+        "universities": 5,
+        "schools": 90,
+        "colleges": 15,
+        "description": "Нефтяная столица Казахстана, расположенная на берегу Каспийского моря."
+      },
+      {
+        "id": 6,
+        "name": "Караганда",
+        "population": 500000,
+        "area_km2": 550,
+        "universities": 10,
+        "schools": 120,
+        "colleges": 25,
+        "description": "Город шахтёров и один из научных центров страны."
+      },
+      {
+        "id": 7,
+        "name": "Костанай",
+        "population": 350000,
+        "area_km2": 240,
+        "universities": 6,
+        "schools": 85,
+        "colleges": 18,
+        "description": "Крупный сельскохозяйственный регион с развитой промышленностью."
+      },
+      {
+        "id": 8,
+        "name": "Кызылорда",
+        "population": 330000,
+        "area_km2": 240,
+        "universities": 5,
+        "schools": 80,
+        "colleges": 16,
+        "description": "Город рядом с Байконуром, известен своим рисоводством."
+      },
+      {
+        "id": 9,
+        "name": "Павлодар",
+        "population": 350000,
+        "area_km2": 400,
+        "universities": 7,
+        "schools": 100,
+        "colleges": 20,
+        "description": "Крупный индустриальный центр на севере Казахстана."
+      },
+      {
+        "id": 10,
+        "name": "Туркестан",
+        "population": 180000,
+        "area_km2": 180,
+        "universities": 3,
+        "schools": 50,
+        "colleges": 10,
+        "description": "Исторический и духовный центр Казахстана."
+      }
+    ],
+    "regions": [
+      {
+        "id": 11,
+        "name": "Акмолинская область",
+        "population": 750000,
+        "area_km2": 146200,
+        "universities": 4,
+        "schools": 500,
+        "colleges": 50
+      },
+      {
+        "id": 12,
+        "name": "Абайская область",
+        "population": 640000,
+        "area_km2": 185500,
+        "universities": 3,
+        "schools": 450,
+        "colleges": 40
+      },
+      {
+        "id": 13,
+        "name": "Жамбылская область",
+        "population": 1100000,
+        "area_km2": 144300,
+        "universities": 6,
+        "schools": 700,
+        "colleges": 60
+      },
+      {
+        "id": 14,
+        "name": "Улытауская область",
+        "population": 200000,
+        "area_km2": 122000,
+        "universities": 2,
+        "schools": 200,
+        "colleges": 20
+      },
+      {
+        "id": 15,
+        "name": "Мангистауская область",
+        "population": 680000,
+        "area_km2": 165600,
+        "universities": 4,
+        "schools": 450,
+        "colleges": 45
+      },
+      {
+        "id": 16,
+        "name": "Северо-Казахстанская область",
+        "population": 550000,
+        "area_km2": 98000,
+        "universities": 3,
+        "schools": 400,
+        "colleges": 30
+      },
+      {
+        "id": 17,
+        "name": "Западно-Казахстанская область",
+        "population": 670000,
+        "area_km2": 151300,
+        "universities": 5,
+        "schools": 500,
+        "colleges": 40
+      },
+      {
+        "id": 18,
+        "name": "Жетысуская область",
+        "population": 700000,
+        "area_km2": 118500,
+        "universities": 4,
+        "schools": 600,
+        "colleges": 50
+      },
+      {
+        "id": 19,
+        "name": "Восточно-Казахстанская область",
+        "population": 1300000,
+        "area_km2": 283300,
+        "universities": 7,
+        "schools": 800,
+        "colleges": 70
+      }
+    ]
+  }
+  
